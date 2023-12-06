@@ -1,0 +1,33 @@
+// . Κατασκευάστε ένα πρόγραμμα που να ορίζει την
+// ακτίνα ενός κύκλου r=10.0 και στην συνέχεια να
+// υπολογίζει και να εμφανίζει την περιφέρεια (2πr)
+// και το εμβαδόν του (πr
+// 2
+// ). Η τιμή του π να δηλωθεί
+// ως σταθερά με π=3.14159 ενώ τα αποτελέσματα να
+// εμφανιστούν με την μορφή:
+//Kiklos me aktina r = 10 exei periferia .... kai emvadon
+
+
+
+
+
+
+#include <stdio.h>
+ // Δήλωση της σταθεράς π
+   #define PI 3.141559
+
+
+int main(void){
+     
+    double r = 10.0;
+    double perimeter = 2 * PI * r;
+    double area = PI * r * r;
+   
+     printf("Kiklos me aktina r = %.1f exei periferia %.4f kai emvadon %.4f.\n", r, perimeter, area);
+
+
+      
+     
+      return 0 ;
+}

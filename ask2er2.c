@@ -10,6 +10,26 @@
 // αντίστοιχων μεταβλητών. 
 
 
+
+#include <stdio.h>
+
+int main(){
+	
+	int a = 5;
+	int b = 7;
+	
+	printf("Athroisma: %d \n", a + b);
+	printf("Diafora: %d \n", a - b);
+	printf("Ginomeno: %d \n", a * b);
+	
+	
+	return 0;
+	
+}
+
+
+
+
 #include <stdio.h>
 
 int main(){
